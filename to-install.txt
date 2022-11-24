@@ -1,5 +1,4 @@
 External packages to install:
-  - npm install -g typescript-language-server typescript
+  - npm install -g typescript-language-server typescript @fsouza/prettierd
   - scoop install tree-sitter
   - scoop install ripgrep
-  - npm install -g @fsouza/prettierd

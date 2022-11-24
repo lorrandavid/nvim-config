@@ -9,7 +9,7 @@ vim.cmd [[packadd packer.nvim]]
 packer.startup(function(use)
   use 'wbthomason/packer.nvim'
   use { 'ellisonleao/gruvbox.nvim' }
-  use 'rebelot/kanagawa.nvim'
+  use 'Yazeed1s/oh-lucy.nvim'
   use 'glepnir/lspsaga.nvim' -- LSP UIs
   use 'hoob3rt/lualine.nvim' -- Statusline
   use 'onsails/lspkind-nvim' -- VSCode-like pictograms
@@ -33,4 +33,10 @@ packer.startup(function(use)
   use 'lewis6991/gitsigns.nvim'
   use 'lukas-reineke/indent-blankline.nvim'
   use 'romgrk/barbar.nvim'
+  use {
+    'nvim-tree/nvim-tree.lua',
+      requires = {
+        'nvim-tree/nvim-web-devicons', -- optional, for file icons
+    },
+  }
 end)

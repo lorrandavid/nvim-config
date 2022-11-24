@@ -1,11 +1,6 @@
--- local status = pcall(require, 'gruvbox')
--- if (not status) then return end
-
 -- vim.o.background = "dark"
--- vim.cmd([[colorscheme gruvbox]])
 
-local status = pcall(require, 'kanagawa')
+local status = pcall(require, 'oh-lucy')
 if (not status) then return end
 
-vim.o.background = "dark"
-vim.cmd([[colorscheme kanagawa]])
+vim.cmd([[colorscheme oh-lucy]])
