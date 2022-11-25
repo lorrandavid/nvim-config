@@ -39,4 +39,8 @@ packer.startup(function(use)
         'nvim-tree/nvim-web-devicons', -- optional, for file icons
     },
   }
+  use {
+    "akinsho/toggleterm.nvim",
+    tag = '*',
+  }
 end)
